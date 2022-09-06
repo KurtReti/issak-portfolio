@@ -8,7 +8,10 @@ html{
 
 h5, h1, p, img{
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
+
+
 
 body{
     display: flex;
@@ -18,8 +21,7 @@ body{
       flex-direction: column; 
       background-color: var(--VeryDarkBlue);
       color: black;
-      font-family: 'Rubik', sans-serif;
-
+      font-family: 'Inter', sans-serif;
 }
 
 #project-container{
@@ -91,22 +93,26 @@ body{
 
 .nav-item{
     display: inline-block;
+    font-size: 15px;
     padding-left: 10px;
 }
 
 #name-1{
     display: inline-block;
+    font-size: 30px;
     padding: 20px;
     width: 160px;
 }
 
 #name-2{
+    font-size: 15px;
     display: inline-block;
 }
 
 #divider{
     padding-left: 30px;
     padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 #divider-line{
@@ -117,14 +123,22 @@ body{
 
 .project{
     -webkit-filter: brightness(100%);
+    transition: all 1s ease-in-out;
+}
+
+#title{
+    font-weight: 200;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .project:hover {
     -webkit-filter: brightness(50%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+
     cursor: pointer;
 }

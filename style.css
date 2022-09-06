@@ -55,15 +55,18 @@ body{
 }
 #project-4{
     grid-area: D;
+    background-color: white;
 
 }
 #project-5{
     grid-area: E;
+    background-color: white;
 
 
 }
 #project-6{
     grid-area: F;
+    background-color: white;
 
 
 }
@@ -110,4 +113,18 @@ body{
     height: 1px;
     width: 1400px;
     background-color: black;
+}
+
+.project{
+    -webkit-filter: brightness(100%);
+}
+
+.project:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
